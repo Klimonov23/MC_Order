@@ -1,0 +1,15 @@
+application:
+  name: microservice-customer
+
+devtools:
+  restart:
+    enabled: true
+data:
+  mongodb:
+    uri: mongodb://localhost:27017
+    database: customer
+
+server:
+  port: 8080
+  servlet:
+    context-path: /customer
