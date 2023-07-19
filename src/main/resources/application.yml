@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: microservice-order
+
+    microservice-customer:
+      url: https:localhost/customer/api/v1/
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: order
+
+server:
+  port: 8080
+  servlet:
+    context-path: /order
+
